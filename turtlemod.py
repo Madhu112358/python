@@ -1,0 +1,32 @@
+import turtle
+t = turtle.Turtle()
+t.shape("turtle")
+t.width(2)
+t.speed(500)
+t.color("red","yellow")
+for i in range(36):
+    t.begin_fill()
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.end_fill()
+    t.right(10)
+for box in range(9):
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.right(10)
+for j in range(36):
+    t.circle(50)
+    t.right(10)
+
